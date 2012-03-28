@@ -1,0 +1,3 @@
+set show-rev-graph = yes        # Show revision graph? SURE!
+set horizontal-scroll = 33%     # Scroll 33% of the view width
+set split-view-height = 80%     # Split to 80% of the screen
