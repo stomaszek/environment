@@ -16,3 +16,4 @@
 	br = branch
 [core]
 	editor = vim
+	eol = lf
