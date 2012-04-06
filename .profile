@@ -13,3 +13,9 @@ alias ll='ls -l'
 alias lla='ls -la'
 alias ll='ls -l'
 
+case "$TERM" in
+screen)
+  PROMPT_COMMAND='echo -ne "\033k$HOSTNAME\033\\"'
+  ;;
+esac
+
