@@ -1,0 +1,11 @@
+activity "activity: window ~%"
+altscreen on
+autodetach on
+defutf8         on
+defmonitor      on
+defscrollback 3000
+hardstatus alwayslastline '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r} (%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}]>
+shell           -bash
+startup_message off
+vbell_msg "bell: window ~%"
+
