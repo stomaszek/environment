@@ -14,6 +14,7 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	st = log --color --graph --decorate=short --all --oneline
 	br = branch
+	purr = pull --rebase
 [core]
 	editor = vim
 	eol = lf
