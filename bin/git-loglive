@@ -1,9 +1,15 @@
 #!/bin/bash
 
+if [ -z $1 ]
+then
+	LIMIT=50
+else
+	LIMIT=$1
+fi
+
 while :
 do
 	clear
-	git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+	git --no-pager log -$LIMIT --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
 	sleep 1
 done
-
