@@ -19,3 +19,5 @@ screen)
   ;;
 esac
 
+source ~/bin/git_remote_check.sh
+source ~/bin/git_prompt.sh
