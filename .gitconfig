@@ -34,3 +34,6 @@
 [core]
 	editor = vim
 	eol = lf
+
+[push]
+	default = tracking
